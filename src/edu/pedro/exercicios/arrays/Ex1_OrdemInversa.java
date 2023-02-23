@@ -9,20 +9,12 @@ public class Ex1_OrdemInversa {
 	
 	public static void main(String[] args) {
 		
-		int[] vetor = {1,2,3,4,5,6};
-		int cont = 0;
+		int[] vetor = {10,-1,5,50,-30,9};
 		
-		System.out.println("Vetor Normal: ");
-		while(cont <= (vetor.length -1)) {
-			System.out.print(vetor[cont]+ " ");
-			cont++;
-		}
-		
-		System.out.println("\nVetor inverso: ");
-		for (int i = (vetor.length-1); i >= 0; i--) {
-
-			System.out.print(vetor[i]+ " ");
-		}
+		 System.out.print("Vetor: ");
+	        for(int i = (vetor.length - 1); i >= 0; i --) {
+	            System.out.print(vetor[i] + " ");
+	        }
 		
 	}
 
