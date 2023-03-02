@@ -25,6 +25,7 @@ public class ListaCircular<T> {
 			novoNo.setNoProximo(this.cauda);
 			this.cabeca.setNoProximo(novoNo);
 			this.cauda = novoNo;
+			
 		}
 		this.tamanhoLista++;
 	}

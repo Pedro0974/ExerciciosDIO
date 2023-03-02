@@ -1,4 +1,4 @@
-package edu.pedro.exercicios.estruturaDeDados;
+ package edu.pedro.exercicios.estruturaDeDados;
 
 public class ListaDuplamenteEncadeada<T> {
 	
